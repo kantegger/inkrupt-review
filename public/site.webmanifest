@@ -1,0 +1,20 @@
+{
+  "name": "Inkrupt - 思想爆发",
+  "short_name": "Inkrupt",
+  "description": "让阅读的思考如墨水般喷涌而出",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#ff6b35",
+  "background_color": "#ffffff",
+  "display": "standalone"
+}

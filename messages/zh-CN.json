@@ -1,0 +1,106 @@
+{
+  "site": {
+    "title": "Inkrupt - 思想爆发",
+    "description": "让阅读的思考如墨水般喷涌而出",
+    "tagline": "多语言书评分享平台"
+  },
+  "nav": {
+    "home": "首页",
+    "reviews": "书评",
+    "about": "关于",
+    "search": "搜索"
+  },
+  "home": {
+    "featured": "精选书评",
+    "latest": "最新书评",
+    "tags": "热门标签",
+    "viewAll": "查看全部"
+  },
+  "review": {
+    "score": "评分",
+    "author": "作者",
+    "originalTitle": "原书名",
+    "publishDate": "发表日期",
+    "readingTime": "阅读时间",
+    "minutes": "分钟",
+    "tags": "标签",
+    "summary": "简介",
+    "relatedReviews": "其他语言版本",
+    "backToReviews": "返回书评列表"
+  },
+  "reviews": {
+    "title": "所有书评",
+    "searchPlaceholder": "搜索书名、作者或内容...",
+    "filterByTag": "按标签筛选",
+    "sortBy": "排序方式",
+    "sortOptions": {
+      "latest": "最新发布",
+      "oldest": "最早发布",
+      "highest": "评分最高",
+      "lowest": "评分最低",
+      "title": "标题排序"
+    },
+    "noResults": "没有找到相关书评",
+    "showing": "显示",
+    "of": "共",
+    "results": "个结果"
+  },
+  "rating": {
+    "toggle": "评分",
+    "show": "显示评分",
+    "hide": "隐藏评分"
+  },
+  "language": {
+    "switch": "切换语言",
+    "current": "当前语言",
+    "zhCN": "简体中文",
+    "zhTW": "繁體中文",
+    "ja": "日本語",
+    "en": "English"
+  },
+  "footer": {
+    "copyright": "© 2025 Inkrupt. 保留所有权利。",
+    "madeWith": "用 ❤️ 制作",
+    "poweredBy": "第三岸书室 出版"
+  },
+  "brand": {
+    "poweredBy": "出版"
+  },
+  "share": {
+    "text": "来看看这篇关于《{title}》的书评",
+    "success": "分享成功",
+    "linkCopied": "链接已复制到剪贴板",
+    "failed": "分享失败:",
+    "copyFailed": "复制失败:",
+    "manualCopy": "分享失败，请手动复制链接",
+    "button": {
+      "aria": "分享书评",
+      "title": "分享书评"
+    }
+  },
+  "screenshot": {
+    "guide": {
+      "title": "截图保存说明",
+      "downloadLocation": "下载位置",
+      "downloadLocationDesc": "图片将保存到浏览器的「下载」文件夹",
+      "fileFormat": "文件格式",
+      "fileFormatDesc": "高清PNG格式",
+      "saveToAlbum": "保存到相册",
+      "saveToAlbumDesc": "下载后可通过系统分享功能保存到相册，相册浏览效果更佳",
+      "confirm": "确定",
+      "cancel": "取消",
+      "dontShowAgain": "不再显示"
+    },
+    "error": "生成图片失败，请重试",
+    "button": {
+      "aria": "生成截图",
+      "title": "生成截图"
+    }
+  },
+  "close": {
+    "button": {
+      "aria": "关闭",
+      "title": "关闭"
+    }
+  }
+}

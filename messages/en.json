@@ -1,0 +1,106 @@
+{
+  "site": {
+    "title": "Inkrupt - Thought Eruption",
+    "description": "Let your reading thoughts burst forth like ink",
+    "tagline": "Multilingual Book Review Sharing Platform"
+  },
+  "nav": {
+    "home": "Home",
+    "reviews": "Reviews",
+    "about": "About",
+    "search": "Search"
+  },
+  "home": {
+    "featured": "Featured Reviews",
+    "latest": "Latest Reviews",
+    "tags": "Popular Tags",
+    "viewAll": "View All"
+  },
+  "review": {
+    "score": "Score",
+    "author": "Author",
+    "originalTitle": "Original Title",
+    "publishDate": "Published",
+    "readingTime": "Reading Time",
+    "minutes": "min",
+    "tags": "Tags",
+    "summary": "Summary",
+    "relatedReviews": "Other Languages",
+    "backToReviews": "Back to Reviews"
+  },
+  "reviews": {
+    "title": "All Reviews",
+    "searchPlaceholder": "Search by title, author or content...",
+    "filterByTag": "Filter by tag",
+    "sortBy": "Sort by",
+    "sortOptions": {
+      "latest": "Latest",
+      "oldest": "Oldest",
+      "highest": "Highest Score",
+      "lowest": "Lowest Score",
+      "title": "Title"
+    },
+    "noResults": "No reviews found",
+    "showing": "Showing",
+    "of": "of",
+    "results": "results"
+  },
+  "rating": {
+    "toggle": "Ratings",
+    "show": "Show Ratings",
+    "hide": "Hide Ratings"
+  },
+  "language": {
+    "switch": "Switch Language",
+    "current": "Current Language",
+    "zhCN": "简体中文",
+    "zhTW": "繁體中文",
+    "ja": "日本語",
+    "en": "English"
+  },
+  "footer": {
+    "copyright": "2025 Inkrupt. All rights reserved.",
+    "madeWith": "Made with ❤️",
+    "poweredBy": "Produced by Third Shore Press"
+  },
+  "brand": {
+    "poweredBy": "produced by"
+  },
+  "share": {
+    "text": "Check out this review of \"{title}\"",
+    "success": "Shared successfully",
+    "linkCopied": "Link copied to clipboard",
+    "failed": "Share failed:",
+    "copyFailed": "Copy failed:",
+    "manualCopy": "Share failed, please copy link manually",
+    "button": {
+      "aria": "Share review",
+      "title": "Share review"
+    }
+  },
+  "screenshot": {
+    "guide": {
+      "title": "Screenshot Save Guide",
+      "downloadLocation": "Download Location",
+      "downloadLocationDesc": "Image will be saved to your browser's Downloads folder",
+      "fileFormat": "File Format",
+      "fileFormatDesc": "High-resolution PNG format",
+      "saveToAlbum": "Save to Album",
+      "saveToAlbumDesc": "After download, you can use system share function to save to photo album for better viewing experience",
+      "confirm": "Confirm",
+      "cancel": "Cancel",
+      "dontShowAgain": "Don't show again"
+    },
+    "error": "Failed to generate image, please try again",
+    "button": {
+      "aria": "Generate screenshot",
+      "title": "Generate screenshot"
+    }
+  },
+  "close": {
+    "button": {
+      "aria": "Close",
+      "title": "Close"
+    }
+  }
+}

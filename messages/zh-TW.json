@@ -1,0 +1,106 @@
+{
+  "site": {
+    "title": "Inkrupt - 思想爆发",
+    "description": "讓閱讀的思考如墨水般噴湧而出",
+    "tagline": "多語言書評分享平台"
+  },
+  "nav": {
+    "home": "首頁",
+    "reviews": "書評",
+    "about": "關於",
+    "search": "搜尋"
+  },
+  "home": {
+    "featured": "精選書評",
+    "latest": "最新書評",
+    "tags": "熱門標籤",
+    "viewAll": "查看全部"
+  },
+  "review": {
+    "score": "評分",
+    "author": "作者",
+    "originalTitle": "原書名",
+    "publishDate": "發表日期",
+    "readingTime": "閱讀時間",
+    "minutes": "分鐘",
+    "tags": "標籤",
+    "summary": "簡介",
+    "relatedReviews": "其他語言版本",
+    "backToReviews": "返回書評列表"
+  },
+  "reviews": {
+    "title": "所有書評",
+    "searchPlaceholder": "搜尋書名、作者或內容...",
+    "filterByTag": "按標籤篩選",
+    "sortBy": "排序方式",
+    "sortOptions": {
+      "latest": "最新發布",
+      "oldest": "最早發布",
+      "highest": "評分最高",
+      "lowest": "評分最低",
+      "title": "標題排序"
+    },
+    "noResults": "沒有找到相關書評",
+    "showing": "顯示",
+    "of": "共",
+    "results": "個結果"
+  },
+  "rating": {
+    "toggle": "評分",
+    "show": "顯示評分",
+    "hide": "隱藏評分"
+  },
+  "language": {
+    "switch": "切換語言",
+    "current": "當前語言",
+    "zhCN": "简体中文",
+    "zhTW": "繁體中文",
+    "ja": "日本語",
+    "en": "English"
+  },
+  "footer": {
+    "copyright": "© 2025 Inkrupt. 保留所有權利。",
+    "madeWith": "用 ❤️ 製作",
+    "poweredBy": "第三岸書室 出版"
+  },
+  "brand": {
+    "poweredBy": "出版"
+  },
+  "share": {
+    "text": "來看看這篇關於《{title}》的書評",
+    "success": "分享成功",
+    "linkCopied": "連結已複製到剪貼簿",
+    "failed": "分享失敗：",
+    "copyFailed": "複製失敗：",
+    "manualCopy": "分享失敗，請手動複製連結",
+    "button": {
+      "aria": "分享書評",
+      "title": "分享書評"
+    }
+  },
+  "screenshot": {
+    "guide": {
+      "title": "截圖保存說明",
+      "downloadLocation": "下載位置",
+      "downloadLocationDesc": "圖片將保存到瀏覽器的「下載」資料夾",
+      "fileFormat": "檔案格式",
+      "fileFormatDesc": "高解析度PNG格式",
+      "saveToAlbum": "保存到相簿",
+      "saveToAlbumDesc": "下載後可透過系統分享功能保存到相簿，相簿瀏覽效果更佳",
+      "confirm": "確定",
+      "cancel": "取消",
+      "dontShowAgain": "不再顯示"
+    },
+    "error": "產生圖片失敗，請重試",
+    "button": {
+      "aria": "產生截圖",
+      "title": "產生截圖"
+    }
+  },
+  "close": {
+    "button": {
+      "aria": "關閉",
+      "title": "關閉"
+    }
+  }
+}

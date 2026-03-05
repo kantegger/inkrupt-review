@@ -1,0 +1,31 @@
+{
+  "jsc": {
+    "target": "es2022",
+    "parser": {
+      "syntax": "typescript",
+      "tsx": true
+    },
+    "transform": {
+      "react": {
+        "runtime": "automatic"
+      }
+    },
+    "loose": true,
+    "externalHelpers": false
+  },
+  "minify": true,
+  "env": {
+    "targets": {
+      "chrome": "91",
+      "firefox": "90", 
+      "safari": "14",
+      "edge": "91"
+    },
+    "include": [],
+    "exclude": [
+      "transform-typeof-symbol"
+    ],
+    "useBuiltIns": false,
+    "corejs": false
+  }
+}

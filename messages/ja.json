@@ -1,0 +1,106 @@
+{
+  "site": {
+    "title": "Inkrupt - 思想爆発",
+    "description": "読書の思考をインクのように噴き出させよう",
+    "tagline": "多言語書評共有プラットフォーム"
+  },
+  "nav": {
+    "home": "ホーム",
+    "reviews": "書評",
+    "about": "について",
+    "search": "検索"
+  },
+  "home": {
+    "featured": "注目の書評",
+    "latest": "最新の書評",
+    "tags": "人気タグ",
+    "viewAll": "すべて表示"
+  },
+  "review": {
+    "score": "評価",
+    "author": "著者",
+    "originalTitle": "原書名",
+    "publishDate": "公開日",
+    "readingTime": "読書時間",
+    "minutes": "分",
+    "tags": "タグ",
+    "summary": "概要",
+    "relatedReviews": "他言語版",
+    "backToReviews": "書評一覧に戻る"
+  },
+  "reviews": {
+    "title": "すべての書評",
+    "searchPlaceholder": "書名・著者・内容で検索...",
+    "filterByTag": "タグで絞り込む",
+    "sortBy": "並び替え",
+    "sortOptions": {
+      "latest": "最新",
+      "oldest": "最古",
+      "highest": "評価が高い順",
+      "lowest": "評価が低い順",
+      "title": "タイトル順"
+    },
+    "noResults": "該当する書評が見つかりません",
+    "showing": "表示中",
+    "of": "全",
+    "results": "件"
+  },
+  "rating": {
+    "toggle": "評価",
+    "show": "評価を表示",
+    "hide": "評価を非表示"
+  },
+  "language": {
+    "switch": "言語を切り替える",
+    "current": "現在の言語",
+    "zhCN": "简体中文",
+    "zhTW": "繁體中文",
+    "ja": "日本語",
+    "en": "English"
+  },
+  "footer": {
+    "copyright": "© 2025 Inkrupt. 全著作権所有。",
+    "madeWith": "❤️ で作成",
+    "poweredBy": "第三岸書室 発行"
+  },
+  "brand": {
+    "poweredBy": "発行"
+  },
+  "share": {
+    "text": "「{title}」の書評をチェックしてみてください",
+    "success": "共有に成功しました",
+    "linkCopied": "リンクをクリップボードにコピーしました",
+    "failed": "共有に失敗しました：",
+    "copyFailed": "コピーに失敗しました：",
+    "manualCopy": "共有に失敗しました。手動でリンクをコピーしてください",
+    "button": {
+      "aria": "書評を共有",
+      "title": "書評を共有"
+    }
+  },
+  "screenshot": {
+    "guide": {
+      "title": "スクリーンショット保存ガイド",
+      "downloadLocation": "保存場所",
+      "downloadLocationDesc": "画像はブラウザの「ダウンロード」フォルダに保存されます",
+      "fileFormat": "ファイル形式",
+      "fileFormatDesc": "高解像度PNG形式",
+      "saveToAlbum": "アルバムに保存",
+      "saveToAlbumDesc": "ダウンロード後、システムの共有機能でアルバムに保存できます。アルバムでの表示がより綺麗です",
+      "confirm": "確定",
+      "cancel": "キャンセル",
+      "dontShowAgain": "今後表示しない"
+    },
+    "error": "画像の生成に失敗しました。もう一度お試しください",
+    "button": {
+      "aria": "スクリーンショットを生成",
+      "title": "スクリーンショットを生成"
+    }
+  },
+  "close": {
+    "button": {
+      "aria": "閉じる",
+      "title": "閉じる"
+    }
+  }
+}

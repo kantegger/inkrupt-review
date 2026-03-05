@@ -1,0 +1,57 @@
+{
+  "scripts": {
+    "dev": "concurrently -k -n dev,covers \"next dev\" \"npm:covers:watch\"",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "export": "next export",
+    "prebuild": "npm run covers:resize",
+    "preexport": "npm run covers:resize",
+    "covers:watch": "node scripts/covers.js --watch",
+    "covers:resize": "node scripts/covers.js --all",
+    "covers:fetch": "node scripts/simple-cover-fetcher.js",
+    "cover:fetch": "node scripts/fetch-cover.js",
+    "covers:missing": "node scripts/fetch-all-covers.js --dry-run",
+    "covers:fetch-all": "node scripts/fetch-all-covers.js",
+    "book:add": "node scripts/add-book.js",
+    "book:add:fast": "node scripts/add-book.js --yes",
+    "new": "node scripts/add-book.js new-books/a.md",
+    "inventory": "node scripts/generate-inventory.js",
+    "covers:resize:one": "node scripts/resize-cover.js",
+    "screenshots:generate": "node scripts/generate-screenshots.js",
+    "screenshots:simple": "node scripts/generate-screenshots-simple.js",
+    "screenshots:incremental": "node scripts/generate-screenshots-incremental.js",
+    "screenshots:force": "rm -f .screenshot-hashes.json && npm run screenshots:generate",
+    "screenshots:one": "node scripts/screenshot-with-server.js",
+    "build:all": "node scripts/build-all.js"
+  },
+  "dependencies": {
+    "gray-matter": "^4.0.3",
+    "html2canvas": "^1.4.1",
+    "next": "^15.4.5",
+    "node-fetch": "^3.3.2",
+    "opencc-js": "^1.0.5",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "remark": "^15.0.1",
+    "remark-html": "^16.0.1"
+  },
+  "devDependencies": {
+    "@types/html2canvas": "^0.5.35",
+    "@types/node": "^24.1.0",
+    "@types/react": "19.1.9",
+    "chokidar": "^3.6.0",
+    "concurrently": "^9.1.0",
+    "eslint": "9.32.0",
+    "eslint-config-next": "15.4.5",
+    "playwright": "^1.54.2",
+    "sharp": "^0.32.6",
+    "typescript": "5.9.2"
+  },
+  "browserslist": [
+    "last 1 Chrome versions",
+    "last 1 Firefox versions",
+    "last 1 Safari versions",
+    "last 1 Edge versions"
+  ]
+}
